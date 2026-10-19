@@ -1,0 +1,8 @@
+{
+  "name": "Cholesterin neu denken - Offizielle Verkaufsseite",
+  "description": "Der wissenschaftlich fundierte Leitfaden für eine herzgesunde Ernährung mit Einkaufsliste, Rezepten und 7-Tage-Plan für nur 26,36 €.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
