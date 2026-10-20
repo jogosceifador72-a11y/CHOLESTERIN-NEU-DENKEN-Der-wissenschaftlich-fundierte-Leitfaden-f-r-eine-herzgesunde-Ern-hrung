@@ -9,11 +9,15 @@ import { OfferPricing } from './components/OfferPricing';
 import { FaqSection } from './components/FaqSection';
 import { SocialFooter } from './components/SocialFooter';
 import { PurchaseNotification } from './components/PurchaseNotification';
+import { ReadingProgressBar } from './components/ReadingProgressBar';
 
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden text-stone-900 selection:bg-amber-200 selection:text-amber-950">
       
+      {/* Scroll Reading Progress Bar at the top of the viewport */}
+      <ReadingProgressBar />
+
       {/* Dynamic ambient background blobs that flow along the scroll */}
       <div className="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
         <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-emerald-200/25 rounded-full blur-[120px] transform -translate-y-1/2" />
